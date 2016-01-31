@@ -1,0 +1,27 @@
+What happens when you initialize a repository? Why do you need to do it?
+Creates a .git file and shows a message as Initialized and empty git repository.
+shows Initial Commits message, but it doesn't have any commit.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area helps to keep multiple files as a bundle to make a commit.
+We cannot commit directly a working directory because it may have few files which we don't want to commit.
+So git add is helpful to bundle files before commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By adding necessary files to staging area and commiting all the files in one shot.
+
+label is giving a name and calling it as branch
+when we do checkout of previous version, it detaches HEAD(without label)
+but when we checkout as a branch it is with label
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+New experiment, new language support, etc
+
+How do the diagrams help you visualize the branch structure?
+Helps to see non-linear structure by showing all branches and helps to identify which part of my branch gets my new commits
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+In manual merging, its difficult to find difference if the files are big.
+Manual merging may lead to miss out some difference.
+Git helps by showing difference in case of conflicts and auto merges other changes, saving time.
+
