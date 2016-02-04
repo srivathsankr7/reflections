@@ -9,4 +9,15 @@ Fork is to clone in git-hub. It is used when I want a copy of others repo which 
 Clone is to make a copy. This can be used to take a local copy from my remote server(git-hub).
 Branch is used when I want to do some experimental feature. It can be created in my local.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It will help to work offline. We could take the latest and proceed working offline with latest code. We can even start merging and resolving conflicts if any.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Resolving conflicts, merging changes, working on experimental modules, code reviews would be harder.
+Nothing will be easier.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When my code should not affect the existing work flow.
+When I work in an experimental proj.
+When my changes has to be reviewed before going to production.
 
